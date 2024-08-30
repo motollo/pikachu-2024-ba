@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #f5cf06;
+    --secondary-color: #8e4106;
+}
+
+body{
+    background-color:  var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Righteous", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div{
+    display: flex;
+    gap: 24px;
+}
+
+header a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.title h1{
+    font-size: 20vw;
+}
+
+.title span{
+    position: absolute;
+    font-size: 25vw;
+    top: -10%;
+    left: 0;
+    opacity: 0.3;
+}
+
+.container{
+    height: 200px;
+    display: flex;
+}
+
+.container div{
+    width: 50%;
+    color: var(--secondary-color);
+}
+
+.container h2{
+    font-size: 64px;
+}
+
+.container p{
+    width: 500px;
+}
+
+.action{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 100px;
+    width: 400px;
+    color: white;
+    font-size: 64px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+}
