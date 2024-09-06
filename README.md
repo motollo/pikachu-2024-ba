@@ -1,7 +1,8 @@
 # Lading Page - Let's Go, Pikachu
 
-Gustavo Motollo
 ![](./screenshot/Captura%20de%20Tela%202024-09-06%20%C3%A0s%2009.20.59.png)
+
+---
 
 ## Sobre
 Site di tipo lading page para divulgar o jogo Let's Go Pikachu.
