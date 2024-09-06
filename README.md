@@ -1,1 +1,4 @@
-# pikachu-2024-ba
+# Lading Pag - Let's Go, Pikachu
+
+Gustavo Motollo
+
