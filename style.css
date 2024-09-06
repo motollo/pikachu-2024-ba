@@ -75,6 +75,7 @@ main{
 .container div{
     width: 50%;
     color: var(--secondary-color);
+    z-index: 1;
 }
 
 .container h2{
@@ -99,7 +100,7 @@ main{
     height: 100px;
     width: 400px;
     color: white;
-    font-size: 64px;
+    font-size: 48px;
 }
 footer{
     display: flex;
